@@ -13,12 +13,13 @@ body {
 
 .container {
     max-width: 350px;
-    max-height: 500px;
+    max-height: 550px;
     background-color: white;
     padding: 1rem;
     border-radius: 15px;
     border: 2px solid black;
     box-shadow: 10px 10px 0 black;
+    margin: auto;
 }
 
 .container div img:first-child {
