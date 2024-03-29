@@ -8,7 +8,6 @@
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: figtree, sans-serif;
-    padding: 5rem 1rem;
 }
 
 .container {
@@ -20,6 +19,7 @@ body {
     border: 2px solid black;
     box-shadow: 10px 10px 0 black;
     margin: auto;
+    margin-top: 5rem;
 }
 
 .container div img {
@@ -37,6 +37,10 @@ body {
 h1 {
     margin: 20px 0px;
     font-weight: 800;
+}
+
+h5 {
+    font-weight: 600;
 }
 
 p {
@@ -66,4 +70,19 @@ section.author-info img {
 .active2:hover {
     color: hsl(0, 0%, 50%);
     cursor: pointer;
+}
+
+.container:hover {
+    box-shadow: 15px 15px 0 black;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 0.5;
+}
+
+a:hover {
+    color: white;
 }
